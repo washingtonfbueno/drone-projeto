@@ -10,7 +10,7 @@ export const SobreComponent: FunctionComponent<SobreComponentProps> = () => {
 		<div>
 			<TitleComponent>Sobre Nós</TitleComponent>
 
-			<div className="flex space-x-16">
+			<div className="flex flex-col lg:flex-row space-y-8 lg:space-y-0 lg:space-x-16">
 				<Image
 					src="/images/drone-sobre.jpg" // ✅ Use a valid path
 					alt="drone"

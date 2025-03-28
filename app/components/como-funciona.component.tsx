@@ -18,7 +18,7 @@ export const ComoFuncionaComponent: FunctionComponent<
 		<div>
 			<TitleComponent>Como funciona</TitleComponent>
 
-			<div className="grid grid-cols-2">
+			<div className="grid grid-cols-1 gap-8 lg:gap-0 lg:grid-cols-2">
 				<div className="pr-16">
 					<p className="text-xl text-neutral-500 mb-8">
 						Nosso serviço de entregas por drones é rápido, seguro e
