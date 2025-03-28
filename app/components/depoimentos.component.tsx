@@ -14,7 +14,7 @@ export const DepoimentosComponent: FunctionComponent<
 
 			<div className="grid grid-cols-2 relative">
 				{/* Draw line to fill empty space in between components */}
-				<div className="absolute right-[50%] mx-auto top-[0] translate-y-[-100%] -translate-x-[-100%] border-l-1 h-48" />
+				<div className="absolute right-[50%] translate-y-[-100%] translate-x-[100%] top-[0] border-l-1 h-48" />
 
 				<Image
 					src="/images/drone-sobre.jpg" // ✅ Use a valid path

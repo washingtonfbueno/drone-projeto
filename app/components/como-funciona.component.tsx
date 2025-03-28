@@ -4,6 +4,13 @@ import { PrimaryButtonComponent } from "./primary-button.component";
 
 interface ComoFuncionaComponentProps {}
 
+const funcionamento = [
+	"Faça seu pedido",
+	"Processamos sua solicitação",
+	"Coleta pelo drone",
+	"Monitoramente em tempo real",
+	"Entrega rápida e segura",
+];
 export const ComoFuncionaComponent: FunctionComponent<
 	ComoFuncionaComponentProps
 > = () => {
@@ -31,13 +38,19 @@ export const ComoFuncionaComponent: FunctionComponent<
 					</PrimaryButtonComponent>
 				</div>
 
-				<ul className="flex flex-col space-y-16 pl-5 py-8 list-disc text-3xl border-l-1">
-					<li>Faça seu pedido</li>
-					<li>Processamos sua solicitação</li>
-					<li>Coleta pelo Drone</li>
-					<li>Monitoramento em tempo real</li>
-					<li>Entrega rápida e segura</li>
-				</ul>
+				<div className="flex flex-col space-y-16 text-3xl border-l-1 relative">
+					{funcionamento.map((funcionamento) => {
+						return (
+							<div className="flex items-center pl-4">
+								<p className="text-4xl absolute left-[0%] translate-x-[-50%]">
+									•
+								</p>
+
+								<p className="text-2xl">{funcionamento}</p>
+							</div>
+						);
+					})}
+				</div>
 			</div>
 		</div>
 	);
