@@ -43,7 +43,6 @@ export const PorqueEscolherComponent: FunctionComponent<
 						key={index}
 						title={beneficio.title}
 						description={beneficio.description}
-						hasButton={false}
 					/>
 				))}
 			</div>

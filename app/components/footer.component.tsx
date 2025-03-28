@@ -7,7 +7,7 @@ interface FooterComponentProps {}
 export const FooterComponent: FunctionComponent<FooterComponentProps> = () => {
 	return (
 		<div className="bg-[#222222] w-full flex justify-center">
-			<div className="max-w-[1200px] w-full px-8 py-24 text-white">
+			<div className="max-w-[1400px] w-full px-8 py-24 text-white">
 				<TitleComponent>Entre em contato conosco</TitleComponent>
 
 				<div className="space-y-4">

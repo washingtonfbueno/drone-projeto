@@ -1,6 +1,7 @@
 import { FunctionComponent } from "react";
 import { TitleComponent } from "./title.component";
 import { CardComponent } from "./card.component";
+import { SecondaryButtonComponent } from "./secondary-button.component";
 
 interface ServicosComponentProps {}
 
@@ -40,7 +41,11 @@ export const ServicosComponent: FunctionComponent<
 						key={index}
 						title={servico.title}
 						description={servico.description}
-						hasButton={false}
+						button={
+							<SecondaryButtonComponent>
+								Saiba mais
+							</SecondaryButtonComponent>
+						}
 					/>
 				))}
 			</div>

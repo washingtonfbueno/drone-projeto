@@ -12,7 +12,7 @@ export default function Home() {
 		<div className="flex justify-center items-center flex-col space-y-24 bg-[#f9f7f0]">
 			<HeroComponent />
 
-			<div className="max-w-[1200px] w-full h-full px-8 space-y-24">
+			<div className="max-w-[1400px] w-full h-full px-8 space-y-24">
 				<ServicosComponent />
 
 				<SobreComponent />
