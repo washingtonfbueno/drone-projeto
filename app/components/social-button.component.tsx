@@ -1,27 +1,36 @@
 import { FunctionComponent } from "react";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 
-interface SocialButtonComponentProps {}
+interface SocialLinksComponentProps {}
 
 const color = "#222222";
 
-export const SocialButtonsComponent: FunctionComponent<
-	SocialButtonComponentProps
+export const SocialLinksComponent: FunctionComponent<
+	SocialLinksComponentProps
 > = () => {
 	return (
 		<div className="flex flex-col justify-self-end items-end space-y-4">
-			<div className="space-x-2">
-				<button className="p-2 rounded-full bg-white">
+			<div className="flex space-x-4">
+				<a
+					className="p-2 rounded-full bg-white transition-transform transform hover:scale-125"
+					href=""
+				>
 					<FaFacebookF color={color} size={24} />
-				</button>
+				</a>
 
-				<button className="p-2 rounded-full bg-white">
+				<a
+					className="p-2 rounded-full bg-white transition-transform transform hover:scale-125"
+					href=""
+				>
 					<FaInstagram color={color} size={24} />
-				</button>
+				</a>
 
-				<button className="p-2 rounded-full bg-white">
+				<a
+					className="p-2 rounded-full bg-white transition-transform transform hover:scale-125"
+					href=""
+				>
 					<FaYoutube color={color} size={24} />
-				</button>
+				</a>
 			</div>
 
 			<p className="text-xl">

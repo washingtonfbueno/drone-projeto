@@ -19,7 +19,12 @@ export const BlogPost: FunctionComponent<BlogPostProps> = ({
 					<p className="text-lg">{description}</p>
 				</div>
 
-				<FaExternalLinkAlt className="min-w-fit" size={36} />
+				<a href="">
+					<FaExternalLinkAlt
+						className="min-w-fit transition-transform transform hover:scale-125"
+						size={32}
+					/>
+				</a>
 			</div>
 		</div>
 	);

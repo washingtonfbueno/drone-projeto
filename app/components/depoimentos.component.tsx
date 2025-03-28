@@ -17,11 +17,10 @@ export const DepoimentosComponent: FunctionComponent<
 				<div className="absolute right-[50%] translate-y-[-100%] translate-x-[100%] top-[0] lg:border-l-1 h-48" />
 
 				<Image
-					src="/images/drone-sobre.jpg" // ✅ Use a valid path
+					src="/images/drone-depoimento.avif" // ✅ Use a valid path
 					alt="drone"
 					width={400} // ✅ Required: Define width
 					height={400} // ✅ Required: Define height
-					className="rounded-lg"
 				/>
 
 				<DepoimentoComponent />

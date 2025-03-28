@@ -12,11 +12,11 @@ export const SobreComponent: FunctionComponent<SobreComponentProps> = () => {
 
 			<div className="flex flex-col lg:flex-row space-y-8 lg:space-y-0 lg:space-x-16">
 				<Image
-					src="/images/drone-sobre.jpg" // ✅ Use a valid path
+					src="/images/drone-sobre.avif" // ✅ Use a valid path
 					alt="drone"
-					width={300} // ✅ Required: Define width
-					height={300} // ✅ Required: Define height
-					className="rounded-lg"
+					width={300}
+					height={300}
+					className=""
 				/>
 
 				<div className="space-y-8">

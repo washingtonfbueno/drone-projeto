@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import { TitleComponent } from "./title.component";
-import { SocialButtonsComponent } from "./social-button.component";
+import { SocialLinksComponent } from "./social-button.component";
 
 interface FooterComponentProps {}
 
@@ -22,7 +22,7 @@ export const FooterComponent: FunctionComponent<FooterComponentProps> = () => {
 						<p>Das 09h às 18h</p>
 					</div>
 
-					<SocialButtonsComponent />
+					<SocialLinksComponent />
 				</div>
 			</div>
 		</div>

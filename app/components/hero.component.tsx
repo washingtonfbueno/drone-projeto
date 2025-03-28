@@ -15,7 +15,7 @@ export const HeroComponent: FunctionComponent<HeroComponentProps> = () => {
 
 				<HeroButtonComponent />
 
-				<p className="self-end text-4xl font-bold w-48">
+				<p className="self-end text-4xl font-bold">
 					Entregas rápidas e inovadoras por drones
 				</p>
 			</div>
