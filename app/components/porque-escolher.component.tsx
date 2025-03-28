@@ -8,22 +8,22 @@ const beneficios = [
 	{
 		title: "Velocidade Imbatível",
 		description:
-			"Nossos drones garantem entregas mais rápidas, reduzindo significativamente os tempos de espera.",
+			"Nossos drones garantem entregas mais rápidas, reduzindo significativamente os tempos de espera",
 	},
 	{
 		title: "Acessibilidade Extrema",
 		description:
-			"Alcance áreas remotas ou de difícil acesso, onde métodos de entrega tradicionais não conseguem chegar.",
+			"Alcance áreas remotas ou de difícil acesso, onde métodos de entrega tradicionais não conseguem chegar",
 	},
 	{
 		title: "Conveniência e Eficiência",
 		description:
-			"O processo automatizado e monitoramento em tempo real tornam as entregas mais simples e confiáveis.",
+			"O processo automatizado e monitoramento em tempo real tornam as entregas mais simples e confiáveis",
 	},
 	{
 		title: "Redução de Custos",
 		description:
-			"Diminua os gastos com logística, especialmente para entregas de curto alcance e pequenos pacotes.",
+			"Diminua os gastos com logística, especialmente para entregas de curto alcance e pequenos pacotes",
 	},
 ];
 

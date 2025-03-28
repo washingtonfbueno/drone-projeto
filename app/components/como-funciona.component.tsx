@@ -30,7 +30,7 @@ export const ComoFuncionaComponent: FunctionComponent<
 						trajeto, você pode acompanhar sua encomenda em tempo
 						real e saber exatamente quando ela chegará ao destino.
 						No final, o pacote é entregue de forma ágil, garantindo
-						sua satisfação e tranquilidade.
+						sua satisfação e tranquilidade
 					</p>
 
 					<PrimaryButtonComponent>

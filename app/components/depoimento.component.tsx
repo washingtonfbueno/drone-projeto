@@ -13,7 +13,7 @@ const depoimentos = [
 		nome: "João Lima",
 		localizacao: "Campinas, SP",
 		depoimento:
-			"Utilizo o serviço de entregas por drones para minha empresa e estou impressionado com a eficiência. É muito mais rápido e confiável do que eu esperava.",
+			"Utilizo o serviço de entregas por drones para minha empresa e estou impressionado com a eficiência. É muito mais rápido e confiável do que eu esperava",
 	},
 	{
 		nome: "Maria Ferreira",

@@ -36,7 +36,7 @@ export const SobreComponent: FunctionComponent<SobreComponentProps> = () => {
 						necessidades do dia a dia e também às demandas
 						corporativas. Valorizamos a confiança dos nossos
 						clientes e buscamos sempre superar expectativas com
-						inovação, segurança e excelência.
+						inovação, segurança e excelência
 					</p>
 
 					<PrimaryButtonComponent>

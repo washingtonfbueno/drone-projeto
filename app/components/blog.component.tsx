@@ -8,22 +8,22 @@ const blogPosts = [
 	{
 		title: "Dicas e Curiosidades",
 		description:
-			"Explore artigos sobre como as entregas por drones estão revolucionando a logística e dicas para aproveitar ao máximo nossos serviços.",
+			"Explore artigos sobre como as entregas por drones estão revolucionando a logística e dicas para aproveitar ao máximo nossos serviços",
 	},
 	{
 		title: "Casos de Sucesso",
 		description:
-			"Descubra histórias reais de clientes que transformaram suas operações com nossas entregas rápidas e inovadoras.",
+			"Descubra histórias reais de clientes que transformaram suas operações com nossas entregas rápidas e inovadoras",
 	},
 	{
 		title: "Avanços na Tecnologia de Drones",
 		description:
-			"Acompanhe as tendências e inovações mais recentes no setor de drones.",
+			"Acompanhe as tendências e inovações mais recentes no setor de drones",
 	},
 	{
 		title: "Sustentabilidade em Ação",
 		description:
-			"Leia sobre como as entregas por drones ajudam a reduzir o impacto ambiental e promovem um futuro mais verde.",
+			"Leia sobre como as entregas por drones ajudam a reduzir o impacto ambiental e promovem um futuro mais verde",
 	},
 ];
 

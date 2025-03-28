@@ -8,22 +8,22 @@ const serviços = [
 	{
 		title: "Entregas Expressas",
 		description:
-			"Precisa de umenvio urgente? Nosso serviço de entregas expressas garante que seu pacote chegue ao destino em tempo recorde.",
+			"Precisa de um envio urgente? Nosso serviço de entregas expressas garante que seu pacote chegue ao destino em tempo recorde",
 	},
 	{
 		title: "Entrega de Documentos Importantes",
 		description:
-			"Transportamos documentos sensíveis com segurança e rapidez, oferecendo soluções ideais para empresas e indivíduos.",
+			"Transportamos documentos sensíveis com segurança e rapidez, oferecendo soluções ideais para empresas e indivíduos",
 	},
 	{
 		title: "Entregas para Empresas",
 		description:
-			"Oferecemos parcerias com empresas para atender às necessidades de logística e envio de pequenos pacotes.",
+			"Oferecemos parcerias com empresas para atender às necessidades de logística e envio de pequenos pacotes",
 	},
 	{
 		title: "Acessibilidade em Áreas Remotas",
 		description:
-			"Nossos drones são perfeitos para alcançar locais de difícil acesso, garantindo entrega onde outros meios não chegam.",
+			"Nossos drones são perfeitos para alcançar locais de difícil acesso, garantindo entrega onde outros meios não chegam",
 	},
 ];
 
