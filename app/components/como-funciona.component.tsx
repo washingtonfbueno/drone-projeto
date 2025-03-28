@@ -39,9 +39,9 @@ export const ComoFuncionaComponent: FunctionComponent<
 				</div>
 
 				<div className="flex flex-col space-y-16 text-3xl border-l-1 relative">
-					{funcionamento.map((funcionamento) => {
+					{funcionamento.map((funcionamento, index) => {
 						return (
-							<div className="flex items-center pl-4">
+							<div key={index} className="flex items-center pl-4">
 								<p className="text-4xl absolute left-[0%] translate-x-[-50%]">
 									•
 								</p>
