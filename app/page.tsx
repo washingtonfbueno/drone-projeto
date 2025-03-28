@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ServicosComponent } from "./components/servicos.component";
 import { SobreComponent } from "./components/sobre-component";
 import { PorqueEscolherComponent } from "./components/porque-escolher.component";

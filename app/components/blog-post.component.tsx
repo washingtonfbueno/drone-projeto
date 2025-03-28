@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
+
 interface BlogPostProps {
 	title: string;
 	description: string;
