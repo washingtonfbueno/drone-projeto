@@ -27,7 +27,7 @@ export const DepoimentoComponent: FunctionComponent<
 	DepoimentoComponentProps
 > = () => {
 	return (
-		<div className="space-y-8 px-8 lg:px-24 border-l-1">
+		<div className="space-y-8 px-8 lg:px-16 border-l-1">
 			{depoimentos.map(({ nome, localizacao, depoimento }, index) => {
 				return (
 					<div key={index} className="space-y-2 text-lg">

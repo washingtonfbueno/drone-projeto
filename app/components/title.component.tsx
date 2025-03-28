@@ -7,5 +7,5 @@ interface TitleComponentProps {
 export const TitleComponent: FunctionComponent<TitleComponentProps> = ({
 	children,
 }) => {
-	return <p className="text-4xl mt-16 mb-12">{children}</p>;
+	return <p className="text-4xl mb-8">{children}</p>;
 };
