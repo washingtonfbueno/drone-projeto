@@ -10,7 +10,7 @@ export const PrimaryButtonComponent: FunctionComponent<
 > = ({ children, ...props }) => {
 	return (
 		<button
-			className="bg-[#222222] text-white text-md px-8 py-2 rounded-full"
+			className="bg-[#222222] text-white text-lg px-8 py-2 rounded-full"
 			{...props}
 		>
 			{children}

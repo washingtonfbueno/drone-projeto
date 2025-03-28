@@ -2,7 +2,6 @@ import { FunctionComponent } from "react";
 import { TitleComponent } from "./title.component";
 import Image from "next/image";
 import { DepoimentoComponent } from "./depoimento.component";
-import { CompleteLineComponent } from "./complete-line.component";
 
 interface DepoimentosComponentProps {}
 
@@ -14,7 +13,8 @@ export const DepoimentosComponent: FunctionComponent<
 			<TitleComponent>Depoimento de clientes</TitleComponent>
 
 			<div className="grid grid-cols-2 relative">
-				<CompleteLineComponent />
+				{/* Draw line to fill empty space in between components */}
+				<div className="absolute right-[50%] mx-auto top-[0] translate-y-[-100%] -translate-x-[-100%] border-l-1 h-48" />
 
 				<Image
 					src="/images/drone-sobre.jpg" // ✅ Use a valid path
