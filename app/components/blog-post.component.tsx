@@ -18,7 +18,8 @@ export const BlogPost: FunctionComponent<BlogPostProps> = ({
 					<p className="text-2xl font-bold">{title}</p>
 					<p className="text-lg">{description}</p>
 				</div>
-				<FaExternalLinkAlt size={36} />
+
+				<FaExternalLinkAlt className="min-w-fit" size={36} />
 			</div>
 		</div>
 	);
